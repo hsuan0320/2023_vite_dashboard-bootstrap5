@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard-Admin</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="module" crossorigin src="/2023_vite_dashboard-bootstrap5/assets/index-ae15800c.js"></script>
+  <link rel="stylesheet" href="/2023_vite_dashboard-bootstrap5/assets/index-8fbf7999.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <div class="d-flex flex-column flex-shrink-0 bg-body-tertiary min-vh-100" style="width: 296px;">
+    <a href="/" class="navbar-brand p-5">
+        <img src="/2023_vite_dashboard-bootstrap5/assets/logo-ANSWER-5336fb45.svg" alt="ANSWER logo" width="150" height="40" />
+    </a>
+    <ul class="navbar-nav flex-column mb-auto fw-bold">
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5">
+                <span class="material-icons me-3 align-middle">insert_chart</span>Dashboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5">
+                <span class="material-icons me-3 align-middle"> forum </span>Question
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5">
+                <span class="material-icons me-3 align-middle"> assignment </span>Assignment
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5">
+                <span class="material-icons me-3 align-middle"> video_library </span>Course
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5 active" aria-current="page">
+                <span class="material-icons me-3 align-middle">group</span>Admin
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link px-5">
+                <span class="material-icons me-3 align-middle"> settings </span>Settings
+            </a>
+        </li>
+    </ul>
+
+    <div class="d-flex align-items-center p-5">
+        <img src="/2023_vite_dashboard-bootstrap5/assets/andychen-f14fef59.jpeg" alt="AndyChen image" width="40" height="40" class="rounded-circle">
+        <div class="ms-3">
+            <h6 class="mb-0 fw-bold">
+                Andy Chen
+            </h6>
+            <small class="text-secondary">andy0401@mail.com</small>
+        </div>
+    </div>
+
+</div>      <!-- page-wrapper -->
+      <div class="page-wrapper flex-grow-1">
+        <!-- navbar -->
+        <nav class="navbar align-items-center p-5">
+    <h2 class="h4 mb-0 fw-bold me-6">Admin</h2>
+    <button type="button" class="btn btn-link d-flex align-items-center text-decoration-none text-body fw-bold">
+        <span class="material-icons text-primary me-2"> add </span>Add New Admin
+    </button>
+    <div class="btn-group ms-auto">
+        <button type="button" class="btn btn-link text-body"><span class="material-icons"> search </span></button>
+        <button type="button" class="btn btn-link text-body"><span class="material-icons">
+                notifications_active</span></button>
+    </div>
+</nav>          <!-- table -->
+          <div class="table-responsive py-2 px-5 mb-auto">
+            <table class="table table-hover align-middle">
+              <thead>
+                <tr>
+                  <th scope="col">
+                    ID <span class="material-icons text-primary align-middle">arrow_downward_alt</span>
+                  </th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Verified</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">#1</th>
+                  <td>Emir Wicks</td>
+                  <td>emir.wicks@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#2</th>
+                  <td>Zaina Goldsmith</td>
+                  <td>zaina.goldsmith@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#3</th>
+                  <td>Mahima Lopez</td>
+                  <td>mahima.lopez@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#4</th>
+                  <td>Pharrell Murray</td>
+                  <td>pharrell.murray@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#5</th>
+                  <td>Annika Mcbride</td>
+                  <td>annika.mcbride@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#6</th>
+                  <td>Fatimah Clark</td>
+                  <td>fatimah.clark@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#7</th>
+                  <td>Klaudia Rhodes</td>
+                  <td>klaudia.rhodes@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#8</th>
+                  <td>Tillie Lucero</td>
+                  <td>tillie.lucero@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#9</th>
+                  <td>Sabrina Stephenson</td>
+                  <td>sabrina.stephenson@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">#10</th>
+                  <td>Annie Smith</td>
+                  <td>annie.smith@mail.com</td>
+                  <td>Yes</td>
+                  <td>
+                    <a href="#" class="btn" role="button"><span
+                        class="material-icons align-middle">visibility</span></a>
+                    <a href="#" class="btn" role="button"><span class="material-icons align-middle">edit</span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- pagination -->
+          <nav class="p-5 mb-0" aria-label="Page navigation">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link" href="###" aria-label="Previous">
+                  <span aria-hidden="true">&lt;</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="###">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="###">2</a></li>
+              <li class="page-item"><a class="page-link" href="###">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="###" aria-label="Next">
+                  <span aria-hidden="true">&gt;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+  </div>
+
+  
+</body>
+
+</html>
