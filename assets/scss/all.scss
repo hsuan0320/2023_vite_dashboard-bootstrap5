@@ -1,0 +1,15 @@
+// font style
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+// bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+
+// components
+@import './components/navbar.scss';
+@import './components/button.scss';
+@import './components/pagination.scss';
+
+
+@import "../../node_modules/bootstrap";

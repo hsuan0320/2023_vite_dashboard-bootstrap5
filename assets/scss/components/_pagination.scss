@@ -1,0 +1,25 @@
+.pagination {
+    .page-item {
+        &:first-child {
+            .page-link {
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+
+            }
+        }
+
+        &:last-child {
+            .page-link {
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+
+            }
+        }
+    }
+}
+
+.page-link {
+    --bs-pagination-border-radius: 0;
+    --bs-pagination-border-color: var(--bs-primary);
+    --bs-pagination-disabled-border-color: var(--bs-primary);
+}

@@ -1,0 +1,15 @@
+.navbar-nav {
+    .nav-link {
+        --bs-navbar-active-color: var(--bs-primary);
+
+        &.active {
+            border-left: 4px solid var(--bs-primary);
+        }
+    }
+}
+
+.nav-item {
+    &+.nav-item {
+        margin-top: 0.5rem;
+    }
+}
